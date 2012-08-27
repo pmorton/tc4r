@@ -1,0 +1,36 @@
+{
+   "buildType":[
+      {
+         "id":"bt1",
+         "name":"Code Analysis",
+         "href":"/httpAuth/app/rest/buildTypes/id:bt1",
+         "projectName":"Code Analysis",
+         "projectId":"project1",
+         "webUrl":"http://localhost:8111/viewType.html?buildTypeId=bt1"
+      },
+      {
+         "id":"bt2",
+         "name":"Product",
+         "href":"/httpAuth/app/rest/buildTypes/id:bt3",
+         "projectName":"Product",
+         "projectId":"project2",
+         "webUrl":"http://localhost:8111/viewType.html?buildTypeId=bt2"
+      },
+      {
+         "id":"bt3",
+         "name":"Tools",
+         "href":"/httpAuth/app/rest/buildTypes/id:bt2",
+         "projectName":"Tools",
+         "projectId":"project3",
+         "webUrl":"http://localhost:8111/viewType.html?buildTypeId=bt3"
+      },
+      {
+         "id":"bt4",
+         "name":"Deployment",
+         "href":"/httpAuth/app/rest/buildTypes/id:bt6",
+         "projectName":"Deployment",
+         "projectId":"project4",
+         "webUrl":"http://localhost:8111/viewType.html?buildTypeId=bt4"
+      }
+   ]
+}

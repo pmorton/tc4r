@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'commander/import'
+require 'tc4r_base'
+
