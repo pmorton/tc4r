@@ -20,6 +20,10 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+### Change Log
+0.0.2 Monkey Patch Nestful to support binary buffering. 
+  - Related to: https://github.com/maccman/nestful/pull/22
+
 ## Contributing
 
 1. Fork it

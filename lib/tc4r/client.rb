@@ -77,6 +77,7 @@ module Tc4r
       options = default_options.merge(options)
 
       download_parameters = {:buffer => true}
+      download_parameters[:buffer_binmode] = true
       if options[:with_progress]
         download_parameters[:progress] = progress_bar
       end

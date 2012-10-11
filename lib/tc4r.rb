@@ -9,3 +9,4 @@ require 'tc4r/build'
 require 'nestful'
 
 require 'tc4r/client'
+require 'monkey_patch/nestful_decode'
