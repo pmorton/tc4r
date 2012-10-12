@@ -1,6 +1,6 @@
 module Nestful
   class Request
-    attr_reader :buffer_binmode
+    attr_accessor :buffer_binmode
 
       def decoded(result)
         if buffer
