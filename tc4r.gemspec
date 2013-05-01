@@ -16,10 +16,10 @@ Gem::Specification.new do |gem|
   gem.bindir        = ['bin']
   gem.executables = ['tc', 'tc-setup']
   gem.version       = Tc4r::VERSION
-  gem.add_dependency 'commander'
-  gem.add_dependency "nestful"
-  gem.add_dependency 'terminal-table'
-  gem.add_dependency 'activemodel'
+  gem.add_dependency 'commander', '~> 4.1.3'
+  gem.add_dependency "nestful", '~> 0.0.8'
+  gem.add_dependency 'terminal-table', '~> 1.4'
+  gem.add_dependency 'activemodel', '~> 3.2.13'
 
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'fakeweb'
